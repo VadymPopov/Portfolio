@@ -1,0 +1,80 @@
+/* ABOUT */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.8em;
+  max-width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: url(../images/background-img.jpg);
+  background-size: cover;
+
+  &__title {
+    margin-top: 1rem;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    border-right: 2px solid transparent;
+  }
+
+  &__text {
+    font-size: 3rem;
+    font-weight: 200;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    border-right: 2px solid transparent;
+  }
+}
+
+@keyframes slash {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: transparent;
+  }
+}
+
+.vertical-slash {
+  animation-name: slash;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@media (max-width: 75em) {
+  .about {
+    padding-top: 3.4em;
+    background-image: url(../images/background-img-tablet.jpg);
+    height: 80vh;
+  }
+}
+
+@media (max-width: 61.25em) {
+  .about {
+    padding-top: 2.8em;
+    background-image: url(../images/background-img-tablet.jpg);
+    height: 60vh;
+  }
+}
+
+@media (max-width: 40em) {
+  .about {
+    padding-top: 1.8em;
+    height: 55vh;
+    background-image: url(../images/background-img-phone.jpg);
+  }
+}
+
+@media (max-width: 28.75em) {
+  .about {
+    padding-top: 1.8em;
+    height: 40vh;
+    background-image: url(../images/background-img-phone.jpg);
+  }
+}

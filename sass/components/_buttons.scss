@@ -1,0 +1,71 @@
+// .button {
+//     padding: 12px 20px;
+//     font-family: var(--main-font);
+//     font-weight: 600;
+//     font-size: 12px;
+//     line-height: 1.33;
+//     text-transform: uppercase;
+//     width: 160px;
+
+//     border: 1px solid var(--accent-color);
+//     border-radius: 25px;
+//     background-color: transparent;
+
+//     transition: background-color 250ms linear;
+// }
+
+// .btn-white {
+//     color: var(--main-light-color);
+// }
+
+// .btn-dark {
+//     color: var(--main-dark-color);
+// }
+
+// .button:hover,
+// .button:focus {
+//     background-color: var(--accent-color);
+// }
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+}
+
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.btn-show-all {
+  font-size: 2rem;
+  background: var(--main-gray);
+  transition: background 0.3s ease-out;
+  border-radius: 20px;
+
+  &:hover {
+    background: var(--main-red);
+
+    & > i {
+      transform: translateX(6px);
+    }
+  }
+
+  & > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+}

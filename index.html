@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="nav">
+        <ul class="nav__list list">
+          <li><a href="#stack" class="nav__link">#Stack</a></li>
+          <li><a href="#projects" class="nav__link">#Work</a></li>
+          <li><a href="#contact" class="nav__link">#Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- ABOUT -->
+      <section class="about">
+        <h1 class="about__title anim-typewriter">Hello World.</h1>
+        <p class="about__text anim-typewriter-hero">I am Vadym</p>
+      </section>
+
+      <!-- STACK -->
+      <section id="stack" class="stack">
+        <div class="stack__header-container">
+          <h2 class="stack__header">My stack</h2>
+          <p class="stack__text">I am in the process of learning something new</p>
+        </div>
+        <div class="stack__links">
+          <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="html" width="80" height="65">
+              <use href="./images/icons.svg#html-5"></use>
+            </svg>
+          </a>
+          <a
+            href="https://www.w3schools.com/css/"
+            target="_blank"
+            rel="noreferrer"
+            class="stack__link"
+          >
+            <svg aria-label="css" width="80" height="65">
+              <use href="./images/icons.svg#css-3"></use>
+            </svg>
+          </a>
+          <a href="https://sass-lang.com" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="sass" width="80" height="65">
+              <use href="./images/icons.svg#sass"></use>
+            </svg>
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+            rel="noreferrer"
+            class="stack__link"
+          >
+            <svg aria-label="javascript" width="80" height="65">
+              <use href="./images/icons.svg#javascript"></use>
+            </svg>
+          </a>
+          <a href="https://reactjs.org/" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="reactjs" width="80" height="65">
+              <use href="./images/icons.svg#react"></use>
+            </svg>
+          </a>
+          <a href="https://redux.js.org" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="redux" width="80" height="65">
+              <use href="./images/icons.svg#redux"></use>
+            </svg>
+          </a>
+          <a
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            rel="noreferrer"
+            class="stack__link"
+          >
+            <svg aria-label="typescript" width="80" height="65">
+              <use href="./images/icons.svg#typescript"></use>
+            </svg>
+          </a>
+          <a href="https://nodejs.org" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="nodejs" width="80" height="65">
+              <use href="./images/icons.svg#nodejs"></use>
+            </svg>
+          </a>
+          <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="mongodb" width="80" height="65">
+              <use href="./images/icons.svg#mongodb"></use>
+            </svg>
+          </a>
+          <a
+            href="https://firebase.google.com/"
+            target="_blank"
+            rel="noreferrer"
+            class="stack__link"
+          >
+            <svg aria-label="firebase" width="80" height="65">
+              <use href="./images/icons.svg#firebase"></use>
+            </svg>
+          </a>
+          <a href="https://www.figma.com/" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="figma" width="80" height="65">
+              <use href="./images/icons.svg#figma"></use>
+            </svg>
+          </a>
+          <a href="https://postman.com" target="_blank" rel="noreferrer" class="stack__link">
+            <svg aria-label="postman" width="80" height="65">
+              <use href="./images/icons.svg#postman"></use>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <h2 class="projects__header">These are some of my projects</h2>
+
+        <div class="projects__grid">
+          <a href="https://vadympopov.github.io/goit-markup-hw-08/" target="_blank" class="card">
+            <img class="card__image" src="./images/web-studio.jpg" alt="project" />
+            <div class="card__desc">
+              <p class="card__desc__title">
+                <span class="code">&lt;</span>
+                WebStudio
+                <span class="code">/&gt;</span>
+              </p>
+              <p class="card__desc__stack">HTML, SASS, JS</p>
+            </div>
+          </a>
+          <a
+            href="https://olexandryakowenko.github.io/team_project_9/"
+            target="_blank"
+            class="card"
+          >
+            <img class="card__image" src="./images/ice-cream.jpg" alt="project" />
+            <div class="card__desc">
+              <p class="card__desc__title">
+                <span class="code">&lt;</span>
+                IceCream
+                <span class="code">/&gt;</span>
+              </p>
+              <p class="card__desc__stack">HTML, CSS, JS</p>
+            </div>
+          </a>
+          <a href="https://vadympopov.github.io/pixabay-gallery/" target="_blank" class="card">
+            <img class="card__image" src="./images/pixabay-gallery.jpg" alt="project" />
+            <div class="card__desc">
+              <p class="card__desc__title">
+                <span class="code">{</span>
+                Pixabay Gallery
+                <span class="code">}</span>
+              </p>
+              <p class="card__desc__stack">JS, HTML, CSS</p>
+            </div>
+          </a>
+          <a href="https://deadlypants11.github.io/project/" target="_blank" class="card">
+            <img class="card__image" src="./images/filmoteka.jpg" alt="project" />
+            <div class="card__desc">
+              <p class="card__desc__title">
+                <span class="code">&lt;</span>
+                Filmoteka
+                <span class="code">/&gt;</span>
+              </p>
+              <p class="card__desc__stack">JS, HTML, CSS</p>
+            </div>
+          </a>
+          <a
+            href="https://vadympopov.github.io/goit-react-hw-08-phonebook/"
+            target="_blank"
+            class="card"
+          >
+            <img class="card__image" src="./images/phonebook.jpg" alt="project" />
+            <div class="card__desc">
+              <p class="card__desc__title">
+                <span class="code">{</span>
+                Phonebook
+                <span class="code">}</span>
+              </p>
+              <p class="card__desc__stack">React, Redux</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/VadymPopov/goit-react-native-hw-06"
+            target="_blank"
+            class="card"
+          >
+            <img class="card__image" src="./images/photo-memories.jpg" alt="project" />
+            <div class="card__desc">
+              <p class="card__desc__title">
+                <span class="code">{{</span>
+                Photo Memories
+                <span class="code">}}</span>
+              </p>
+              <p class="card__desc__stack">React Native</p>
+            </div>
+          </a>
+        </div>
+        <a href="https://github.com/VadymPopov" class="btn btn-show-all" target="_blank"
+          >View all<i class="fas fa-chevron-right">></i></a
+        >
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="contact__header-container">
+          <h2 class="contact__header">I am open to collaboration!</h2>
+          <p class="contact__text">This is how you can reach me</p>
+        </div>
+        <div class="contact__links">
+          <a
+            href="https://www.linkedin.com/in/vadym-popov/"
+            target="_blank"
+            class="btn contact__details"
+          >
+            <svg aria-label="linkedin" width="120" height="80">
+              <use href="./images/contacts.svg#linkedin"></use>
+            </svg>
+          </a>
+          <a href="https://github.com/VadymPopov" target="_blank" class="btn contact__details">
+            <svg aria-label="github" width="120" height="80">
+              <use href="./images/contacts.svg#github"></use>
+            </svg>
+          </a>
+          <a href="mailto:boycristal10@gmail.com" class="btn contact__details"
+            ><svg aria-label="gmail" width="120" height="80">
+              <use href="./images/contacts.svg#google-gmail"></use>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy 2023 Vadym Popov</p>
+    </footer>
+  </body>
+</html>
