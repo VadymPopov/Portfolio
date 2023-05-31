@@ -1,10 +1,10 @@
 /* Animation */
 .anim-typewriter {
-  animation: typewriter 3s steps(40) 1s 1 normal both, blinkCursor 500ms steps(40) 7 normal;
+  animation: typewriter 2s steps(40) 0.5s 1 normal both, blinkCursor 300ms steps(40) 6 normal;
 }
 .anim-typewriter-hero {
-  animation: typewriter-hero 1.8s steps(20) 5s 1 normal both,
-    blinkCursor 500ms steps(20) 4.5s 9 normal;
+  animation: typewriter-hero 1.2s steps(20) 2.5s 1 normal both,
+    blinkCursor 400ms steps(20) 2.5s 7 normal;
 }
 
 @keyframes typewriter-hero {
@@ -30,6 +30,6 @@
     border-right-color: transparent;
   }
   to {
-    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: var(--text-color);
   }
 }

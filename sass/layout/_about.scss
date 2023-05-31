@@ -7,13 +7,14 @@
   padding-top: 3.8em;
   max-width: 100%;
   height: 100vh;
-  background-color: #000;
-  background-image: url(../images/background-img.jpg);
-  background-size: cover;
+  background-color: var(--main-bg-color);
+  background-image: url(../images/background-desktop.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 
   &__title {
     margin-top: 1rem;
-    color: #fff;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
@@ -23,7 +24,6 @@
   &__text {
     font-size: 3rem;
     font-weight: 200;
-    color: #fff;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
@@ -33,7 +33,7 @@
 
 @keyframes slash {
   0% {
-    color: #fff;
+    color: var(--text-color);
   }
   100% {
     color: transparent;
@@ -50,7 +50,7 @@
 @media (max-width: 75em) {
   .about {
     padding-top: 3.4em;
-    background-image: url(../images/background-img-tablet.jpg);
+    background-image: url(../images/background-tablet.png);
     height: 80vh;
   }
 }
@@ -58,23 +58,15 @@
 @media (max-width: 61.25em) {
   .about {
     padding-top: 2.8em;
-    background-image: url(../images/background-img-tablet.jpg);
-    height: 60vh;
-  }
-}
-
-@media (max-width: 40em) {
-  .about {
-    padding-top: 1.8em;
-    height: 55vh;
-    background-image: url(../images/background-img-phone.jpg);
+    background-image: url(../images/background-tablet.png);
+    height: 70vh;
   }
 }
 
 @media (max-width: 28.75em) {
   .about {
     padding-top: 1.8em;
-    height: 40vh;
-    background-image: url(../images/background-img-phone.jpg);
+    height: 60vh;
+    background-image: url(../images/background-mobile.png);
   }
 }

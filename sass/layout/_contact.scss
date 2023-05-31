@@ -9,7 +9,8 @@
   width: 100%;
   height: 80vh;
   padding: 0 2rem;
-  background: var(--main-gray);
+  background: var(--second-bg-color);
+  color: var(--text-color-light);
 
   &__header {
     font-size: 3rem;
@@ -31,6 +32,8 @@
     font-size: 2.4rem;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
+    display: inline-block;
+    margin: 1rem 2rem;
     &:hover {
       transform: translateY(8px);
     }

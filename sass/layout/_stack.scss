@@ -9,7 +9,8 @@
   width: 100%;
   height: 80vh;
   padding: 0 2rem;
-  background: var(--main-gray);
+  background: var(--second-bg-color);
+  color: var(--text-color-light);
 
   &__header {
     font-size: 4rem;

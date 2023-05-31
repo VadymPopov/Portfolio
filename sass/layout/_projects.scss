@@ -2,7 +2,7 @@
 .projects {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--main-blue);
+  background: var(--main-bg-color);
 
   &__header {
     margin: 0 auto 5rem auto;
@@ -36,13 +36,23 @@
 }
 
 .card {
-  background: var(--main-gray);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px,
+    rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px,
+    rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px;
+  transition: all 250ms;
   border-radius: 20px;
   overflow: hidden;
+  background-color: #c2fbd7;
+
+  &:hover {
+    box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px,
+      rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px,
+      rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
 
   &:hover .code {
-    color: #ff7f50;
+    color: #00afc1;
   }
 
   &__image {
@@ -58,18 +68,18 @@
     flex-direction: column;
 
     &__title {
-      color: #fff;
+      color: var(--text-color-dark);
       padding-top: 1.5rem;
     }
 
     &__stack {
-      color: #fff;
+      color: var(--text-color-dark);
       font-size: 1rem;
     }
   }
 }
 
 .code {
-  color: var(--main-gray);
+  color: transparent;
   transition: color 0.3s ease-out;
 }

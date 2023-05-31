@@ -10,9 +10,9 @@ footer {
   font-weight: 300;
   display: flex;
   justify-content: space-evenly;
-  // padding: 1rem;
-  background: var(--main-gray);
-  border-top: 4px solid var(--main-red);
+  background: var(--second-bg-color);
+  color: var(--text-color-light);
+  // border-top: 1px solid #fff;
 }
 
 footer > p {

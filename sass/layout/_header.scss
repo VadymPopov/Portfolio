@@ -21,10 +21,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  // background: var(--main-blue);
-  background: var(--main-black);
-  // box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 0 2px 0 rgba(8, 143, 233, 0.4);
+  background: var(--main-bg-color);
+
   z-index: 10;
 
   &__list {
@@ -35,11 +33,10 @@
   &__link {
     display: block;
     padding: 1.2rem;
-    color: var(--main-white);
+    color: var(--text-color);
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      // background: var(--main-bg-color);
       color: var(--accent-color);
     }
   }
